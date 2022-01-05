@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container-input{
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: #007FFF;
+    padding: 30px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.btn-sub{
+    background: #007FFF;
+    margin-top: 15px;
+    border: 0px;
+    color: white;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+.form-sign{
+    min-width: 300px;
+    max-width: 350px;
+    box-shadow: 0px -1px 12px 3px rgba(0,0,0,0.41);
+}
+.err-abel{
+    visibility: hidden;
+}
+.error{
+    margin: 10px 0px 0px 0px;
+    color: red;
+}

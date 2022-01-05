@@ -1,0 +1,37 @@
+.container-input{
+    text-align: center;
+}
+title{
+    
+}
+.card-employ{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    width: 230px;
+}
+.container-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.btn-card{
+    border: 0px;
+    background: transparent;
+    color: gray;
+}
+.container-add-up{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error-abel{
+    visibility: hidden;
+}
+.error{
+    margin: 10px 0px 0px 0px;
+    color: red;
+    font-size:10px; 
+    margin: 0px;
+}

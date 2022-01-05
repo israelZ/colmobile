@@ -1,0 +1,50 @@
+.container-card {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .container-card {
+        justify-content: center;
+        height: 50vh;
+        overflow-y: scroll;
+    }
+}
+
+.title{
+    font-weight: 700;
+}
+
+.card-employer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 230px;
+    margin: 10px;
+}
+.container-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 14px;
+    padding: 5px;
+}
+.btn-card {
+    border: 0px;
+    background: transparent;
+    color: gray;
+}
+.container-add-up {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.line{
+    border-top: 1px solid gray;
+}
